@@ -1,0 +1,123 @@
+:root{
+    --backgroundColor : #404B69;
+    --secondaryColor : #283149;
+    --hoverColor : #00818A;
+    --textColor : #DBEDF3;
+} 
+
+.secondary{
+    background-color: var(--secondaryColor);
+}
+.hovercolor{
+    background-color: var(--hoverColor);
+}
+.hover{
+    color:var(--hoverColor)
+}
+.hcolor{
+    color:var(--secondaryColor) ;
+}
+.link:hover{
+    color: var(--hoverColor);
+}
+.navicons:hover{
+    background-color: var(--hoverColor);
+    border-radius: 50%;
+}
+.background{
+    background-color: var(--backgroundColor);
+}
+.txtcolor{
+    color: var(--textColor);
+}
+.theme1{
+    background-color: #283149;
+}
+.theme2{
+    background-color: #393232;
+}
+.theme3{
+    background-color:#232931;
+}
+.theme4{
+    background-color: #522546;
+}
+.theme5{
+    background-color: #B8DFD8;
+}
+.theme6{
+    background-color: #98DED9;
+}
+
+.circle:hover{
+    border: 2px solid yellow;
+}
+.skillscircle{
+    transition: all 0.7s ease-in;
+}
+.skillscircle:hover{
+    transform: scale(1.1);
+}
+
+
+.btn{
+    transition: all 1s ease-in-out;
+}
+.btn:hover{
+    background-color: var(--hoverColor);
+} 
+
+.navlinks:hover{
+    color: var(--textColor);
+    /* font-family: cursive; */
+}
+.introPara{
+    line-height:2rem;
+}
+
+/* Projects Section CSS */
+
+.projectskill{
+    background-color: var(--secondaryColor);
+    color: var(--textColor);
+}
+
+.projectcard{
+    transition: all 1s ease-in-out;
+}
+.projectcard:hover{
+    transform: scale(1.04);
+}
+.btnproject:hover{
+    background-color: var(--secondaryColor);
+    transition: all 1s ease-in-out;
+}
+
+.filters .type{
+    padding: 0.7rem 1.4rem;
+    border-radius: 2rem;
+    transition: all 0.5s;
+    /* margin-right: rem; */
+    color: var(--secondaryColor);
+    font-size: large;
+}
+.filters .active{
+    background-color: var(--backgroundColor);
+    color: var(--textColor);
+    /* font-weight: bold; */
+}
+
+.card:hover{
+    transition: all 1s ease;
+    transform: scale(1.1);
+}
+.card{
+    width: 24rem;
+}
+/* End of Projects Section  */
+
+/* footer */
+.footerbtn:hover{
+    transition: all 1s ease-in-out;
+    background-color: var(--backgroundColor);
+}
